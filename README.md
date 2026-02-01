@@ -34,9 +34,6 @@ Main notebook that contains:
 * Feature engineering experiments
 * Model training and evaluation
 
-### `requirements.txt`
-
-Lists required Python packages.
 
 ---
 
