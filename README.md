@@ -12,7 +12,6 @@ The project includes data preprocessing, feature engineering, linear regression 
 ├── day.csv
 ├── Linear Regression Assignment.ipynb
 ├── README.md
-└── requirements.txt
 ```
 
 > All intermediate CSV files (train/test splits and feature-engineered datasets) are **generated automatically** when the notebook is executed.
