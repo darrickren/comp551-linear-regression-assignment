@@ -1,7 +1,7 @@
 # Linear Regression Assignment
 
-This repository contains the complete implementation for a **Linear Regression assignment**, designed to be **run primarily on Google Colab**.
-The project includes data preprocessing, feature engineering, linear regression from scratch, and model evaluation.
+This repository contains the complete implementation for a **Linear Regression Model**, designed to be **run primarily on Google Colab**.
+The project includes data preprocessing, feature engineering, linear regression, and model evaluation.
 
 ---
 
@@ -36,7 +36,7 @@ Main notebook that contains:
 
 ---
 
-## Models Implemented
+## Model Implemented
 
 All models use **linear regression with a bias term**, solved using the **least-squares closed-form solution** (`np.linalg.lstsq`).
 
@@ -68,10 +68,11 @@ This enables comparison of model complexity, underfitting, and overfitting behav
 ## How to Run (Google Colab)
 
 1. Upload all repository files to a folder in **Google Drive**
-2. Open `Linear Regression Assignment.ipynb` using **Google Colab**
-3. Run the first cell to mount Google Drive when prompted
-4. Ensure the dataset file `day.csv` is in the same folder as the notebook
-5. Run **all cells from top to bottom**
+2. Rename the folder name as `code`
+3. Open `Linear Regression Assignment.ipynb` using **Google Colab**
+4. Run the first cell to mount Google Drive when prompted
+5. Ensure the dataset file `day.csv` is in the same folder as the notebook
+6. Run **all cells from top to bottom**
 
 The notebook will automatically:
 
@@ -85,7 +86,7 @@ The notebook will automatically:
 
 ## Notes
 
-* Linear regression is implemented **from scratch** using NumPy (no scikit-learn regression models).
+* Linear regression is implemented **from scratch** using NumPy.
 * All intermediate datasets are saved for transparency and reproducibility.
 * Basis expansion parameters (`D_g`, `D_s`) are chosen to balance model flexibility and overfitting risk.
 
@@ -95,7 +96,7 @@ The notebook will automatically:
 
 This project demonstrates:
 
-* End-to-end data preprocessing
-* Linear regression implemented from first principles
+* Preprocessing of the raw data 
+* Linear regression implemented from scratch
 * Feature engineering with polynomial, interaction, Gaussian, and sigmoid bases
 * Empirical comparison of model complexity using test MSE
